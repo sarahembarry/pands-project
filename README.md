@@ -24,14 +24,16 @@ The data set contains 150 of iris flowers.  <br />
 These 150 samples are made up of 50 samples from three species of Iris
 - Iris Setosa
 - Iris Virginica
-- Iris Versicolor<br />
+- Iris Versicolor<br /> <br />
+
 The Iris data set contains 5 variables:
 - sepal_length
 - sepal_width
 - petal_length
 - petal_width 
 - species <br />
-[Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)<br />
+[Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)<br /><br />
+
 Due to it's simplicity, managable size and structure this data set is very popular as a starting point for those learning data analytics.[Source: Daniel Lundy](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
 
 
@@ -69,3 +71,33 @@ Due to it's simplicity, managable size and structure this data set is very popul
 - **Source**: [www.w3resource.com](https://www.w3schools.com/)
 - **Date Accessed**: 2024
 - **Link**: [Pandas DataFrame: describe() function](https://www.w3resource.com/pandas/dataframe/dataframe-describe.php)
+---
+**Description**: Write pandas dataframe to text file
+- **Source**: [stackoverflow.com](https://stackoverflow.com/)
+- **Date Accessed**: 2024
+- **Link**: [write multiple pandas dataframe to the same txt file](https://stackoverflow.com/questions/57800651/write-multiple-pandas-dataframe-to-the-same-txt-file)
+---
+**Description**: Save histogram as file
+- **Source**: [stackoverflow.com](https://stackoverflow.com/)
+- **Date Accessed**: 2024
+- **Link**: [How can I save histogram plot in python?](https://stackoverflow.com/questions/46411533/how-can-i-save-histogram-plot-in-python)
+---
+**Description**: Create Histogram from csv file column
+- **Source**: [mode.com](https://mode.com/example-gallery/python_histogram)
+- **Date Accessed**: 2024
+- **Link**: [Creating Histograms using Pandas](https://mode.com/example-gallery/python_histogram)
+---
+**Description**: Matplotlib Bar Charts
+- **Source**: [pythonbasics.org ](https://pythonbasics.org/)
+- **Date Accessed**: 2024
+- **Link**: [Matplotlib Bar Chart](hhttps://pythonbasics.org/matplotlib-bar-chart/)
+---
+**Description**: Histograms
+- **Source**: [www150.statcan.gc](https://www150.statcan.gc.ca/)
+- **Date Accessed**: 2024
+- **Link**: [Histogram](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/histo/5214822-eng.htm)
+---
+**Description**: Bar Charts
+- **Source**: [atlassian.com/](https://www.atlassian.com/)
+- **Date Accessed**: 2024
+- **Link**: [A complete guide to bar charts](https://www.atlassian.com/data/charts/bar-chart-complete-guide#:~:text=A%20bar%20chart%20is%20used,groups%20compare%20against%20the%20others.)
