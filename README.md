@@ -101,3 +101,8 @@ Due to it's simplicity, managable size and structure this data set is very popul
 - **Source**: [atlassian.com/](https://www.atlassian.com/)
 - **Date Accessed**: 2024
 - **Link**: [A complete guide to bar charts](https://www.atlassian.com/data/charts/bar-chart-complete-guide#:~:text=A%20bar%20chart%20is%20used,groups%20compare%20against%20the%20others.)
+---
+**Description**: Scatter Plots
+- **Source**: [w3schools.com](https://www.w3schools.com/python/matplotlib_scatter.asp)
+- **Date Accessed**: 2024
+- **Link**: [Creating Scatter Plots](hhttps://www.w3schools.com/python/matplotlib_scatter.asp)
