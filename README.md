@@ -3,7 +3,8 @@
 ## Table of Contents:
 1. [Project Description](#project-description)
 2. [Summary of the Iris Data Set](#Summary-of-the-Iris-Data-Set)
-2. [Credits and References](#credits-and-references)
+3. [How to get started](#how-to-get-started)
+4. [Credits and References](#credits-and-references)
 
 
 ## Project Description
@@ -35,6 +36,19 @@ The Iris data set contains 5 variables:
 [Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)<br /><br />
 
 Due to it's simplicity, managable size and structure this data set is very popular as a starting point for those learning data analytics.[Source: Daniel Lundy](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
+
+## How to get started 
+To get started with this repository you can go the following:
+1. Install Python.
+2. Install Visual Studio Code or another code editor.
+3. Clone this Repository and open it in your code editor. 
+4. Run the Jupyter Notebook. <br /><br />
+or <br /><br />
+Use Google Colab
+<a target="_blank" href="https://colab.research.google.com/github/sarahembarry/pands-project">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 
 
 
