@@ -120,3 +120,19 @@ Use Google Colab
 - **Source**: [w3schools.com](https://www.w3schools.com/python/matplotlib_scatter.asp)
 - **Date Accessed**: 2024
 - **Link**: [Creating Scatter Plots](hhttps://www.w3schools.com/python/matplotlib_scatter.asp)
+---
+**Description**: seaborn.pairplot() method
+- **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
+- **Date Accessed**: 2024
+- **Link**: [Python – seaborn.pairplot() method](https://www.geeksforgeeks.org/python-seaborn-pairplot-method/)
+---
+**Description**:Correlation Matrix in Pandas
+- **Source**: [www.geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-a-correlation-matrix-using-pandas/)
+- **Date Published**: 2021
+- **Link**: [How to create a correlation matrix using Pandas](https://www.geeksforgeeks.org/how-to-create-a-correlation-matrix-using-pandas/)
+---
+**Description**:Select columns by dtype in dataframe
+- **Source**: [note.nkmk.me](https://note.nkmk.me/en)
+- **Date Published**: 2024
+- **Link**: [pandas: Select columns by dtype with select_dtypes()](https://note.nkmk.me/en/python-pandas-select-dtypes/)
+---
