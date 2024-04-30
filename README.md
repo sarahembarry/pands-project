@@ -104,7 +104,7 @@ Use Google Colab
 **Description**: Matplotlib Bar Charts
 - **Source**: [pythonbasics.org ](https://pythonbasics.org/)
 - **Date Accessed**: 2024
-- **Link**: [Matplotlib Bar Chart](hhttps://pythonbasics.org/matplotlib-bar-chart/)
+- **Link**: [Matplotlib Bar Chart](https://pythonbasics.org/matplotlib-bar-chart/)
 ---
 **Description**: Histograms
 - **Source**: [www150.statcan.gc](https://www150.statcan.gc.ca/)
@@ -119,7 +119,7 @@ Use Google Colab
 **Description**: Scatter Plots
 - **Source**: [w3schools.com](https://www.w3schools.com/python/matplotlib_scatter.asp)
 - **Date Accessed**: 2024
-- **Link**: [Creating Scatter Plots](hhttps://www.w3schools.com/python/matplotlib_scatter.asp)
+- **Link**: [Creating Scatter Plots](https://www.w3schools.com/python/matplotlib_scatter.asp)
 ---
 **Description**: seaborn.pairplot() method
 - **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
