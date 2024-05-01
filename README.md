@@ -136,3 +136,8 @@ Use Google Colab
 - **Date Published**: 2024
 - **Link**: [pandas: Select columns by dtype with select_dtypes()](https://note.nkmk.me/en/python-pandas-select-dtypes/)
 ---
+---
+**Description**: Find missing columns in df in with Pandas
+- **Source**: [cmdlinetips.com](https://cmdlinetips.com/)
+- **Date Published**: 2020
+- **Link**: [How To Get Number of Missing Values in Each Column in Pandas](https://cmdlinetips.com/2020/11/how-to-get-number-of-missing-values-in-each-column-in-pandas/)
