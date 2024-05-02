@@ -141,3 +141,18 @@ Use Google Colab
 - **Source**: [cmdlinetips.com](https://cmdlinetips.com/)
 - **Date Published**: 2020
 - **Link**: [How To Get Number of Missing Values in Each Column in Pandas](https://cmdlinetips.com/2020/11/how-to-get-number-of-missing-values-in-each-column-in-pandas/)
+---
+**Description**: Predict Iris Species in Python
+- **Source**: [Johar Khan](https://www.youtube.com/@joharkhan99)
+- **Date Published**: 2023
+- **Link**: [Predict Iris Species in Python with ML: A Step-by-Step Guide](https://www.youtube.com/watch?v=2HfJVdj3SpM)
+---
+**Description**: Logistic Regression on the Iris dataset
+- **Source**: [Rahul Raj Pandey](https://www.kaggle.com/rahulrajpandey31)
+- **Date Accessed**: 2024
+- **Link**: [Logistic Regression From Scratch Iris Data-set](https://www.kaggle.com/code/rahulrajpandey31/logistic-regression-from-scratch-iris-data-set)
+---
+**Description**: Logistic Regression in Python
+- **Source**: [Avinash Navlani via Datacamp](https://www.datacamp.com/)
+- **Date Published**: 2019
+- **Link**: [Understanding Logistic Regression in Python Tutorial](https://www.datacamp.com/tutorial/understanding-logistic-regression-python)
