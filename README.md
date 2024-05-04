@@ -12,8 +12,9 @@ This repository contains my analysis of the Fisher's Iris data set.<br />
 The files 'analysis.py' and 'analysisnotebook.ipynb' contain the follwing in relation to the data set:<br />
 - Python code that outputs a summary of each variable to a single text file.
 - Python code that saves a histogram of each variable to png files.
-- Python code that outputs a scatter plot of each pair of variables.
-- Other analysis (TBC)<br />
+- Python code that outputs a scatter plot of each pair of variables by Iris species.
+- Python code that outputs a box plot of each numeric variable by species<br />
+- A linear regression model that will predict Iris species based on features<br />
 Please see below for a summary of the data set and all credits and references.
 
 
