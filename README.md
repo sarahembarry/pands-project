@@ -168,3 +168,24 @@ Use Google Colab
 - **Date Accessed**: 2024
 - **Link**: [Python Data Visualizations](https://www.kaggle.com/code/benhamner/python-data-visualizations)
 ---
+**Description**: K-Means Clustering of Iris Dataset
+- **Source**: [Siti Khotijah](https://www.kaggle.com/khotijahs1)
+- **Date Accessed**: 2024
+- **Link**: [K-Means Clustering of Iris Dataset](https://www.kaggle.com/code/khotijahs1/k-means-clustering-of-iris-dataset)
+---
+**Description**: Analyzing Decision Tree and K-means Clustering using Iris dataset
+- **Source**: [geeksforgeeks.org/](https://www.geeksforgeeks.org/)
+- **Date Published**: 2022
+- **Link**: [Analyzing Decision Tree and K-means Clustering using Iris dataset](https://www.geeksforgeeks.org/analyzing-decision-tree-and-k-means-clustering-using-iris-dataset/)
+---
+**Description**: K-Means Clustering in Python: A Practical Guide
+- **Source**: [realpython.com](https://realpython.com/k-means-clustering-python/)
+- **Date Published**: 2020
+- **Link**: [K-Means Clustering in Python: A Practical Guide](https://realpython.com/k-means-clustering-python/)
+---
+**Description**: K-means clustering and Iris dataset
+- **Source**: [Dhiraj Km](https://dhirajkumarblog.medium.com/)
+- **Date Published**: 2019
+- **Link**: [K-means clustering using sklearn and Python](https://heartbeat.comet.ml/k-means-clustering-using-sklearn-and-python-4a054d67b187)
+---
+
