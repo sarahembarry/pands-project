@@ -156,3 +156,14 @@ Use Google Colab
 - **Source**: [Avinash Navlani via Datacamp](https://www.datacamp.com/)
 - **Date Published**: 2019
 - **Link**: [Understanding Logistic Regression in Python Tutorial](https://www.datacamp.com/tutorial/understanding-logistic-regression-python)
+---
+**Description**: Boxplots by species
+- **Source**: [Hfahmida Data Science and Business Analytics:TRIDS](https://medium.com/@hfahmida)
+- **Date Published**: 2023
+- **Link**: [EDA for Iris dataset with Boxplots Violin Plots Heatmap & Pairwise Plots](https://medium.com/@hfahmida/eda-for-iris-dataset-with-boxplots-violin-plots-heatmap-pairwise-plots-535275b4c2a0)
+---
+**Description**: Boxplots by species
+- **Source**: [Ben Hamner](https://www.kaggle.com/benhamner)
+- **Date Accessed**: 2024
+- **Link**: [Python Data Visualizations](https://www.kaggle.com/code/benhamner/python-data-visualizations)
+---
