@@ -188,4 +188,18 @@ Use Google Colab
 - **Date Published**: 2019
 - **Link**: [K-means clustering using sklearn and Python](https://heartbeat.comet.ml/k-means-clustering-using-sklearn-and-python-4a054d67b187)
 ---
-
+**Description**: Scatter plot using Plotly
+- **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
+- **Date Published**: 2024
+- **Link**: [Scatter plot using Plotly in Python](https://www.geeksforgeeks.org/scatter-plot-using-plotly-in-python/)
+---
+**Description**:K-nearest neighbors on Iris data set 
+- **Source**: [AI with AI](https://www.youtube.com/@AsifImmanad)
+- **Date Accessed**: 2024
+- **Link**: [Example of ML Classification Technique on iris Dataset using KNN Algorithm | AI with AI](https://www.youtube.com/watch?v=KvYGJt3cTj4)
+---
+**Description**:K-nearest neighbors on Iris data set 
+- **Source**: [S.Sreenivasulu](https://www.kaggle.com/susree64)
+- **Date Accessed**: 2024
+- **Link**: [K-Nearest Neighbor with Iris Data set](https://www.kaggle.com/code/susree64/k-nearest-neighbor-with-iris-data-set)
+---
