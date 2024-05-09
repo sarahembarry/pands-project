@@ -203,3 +203,18 @@ Use Google Colab
 - **Date Accessed**: 2024
 - **Link**: [K-Nearest Neighbor with Iris Data set](https://www.kaggle.com/code/susree64/k-nearest-neighbor-with-iris-data-set)
 ---
+**Description**:Logistic Regression in Machine Learning
+- **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/understanding-logistic-regression/)
+- **Date Published**: 2024
+- **Link**: [Logistic Regression in Machine Learning](https://www.geeksforgeeks.org/understanding-logistic-regression/)
+---
+**Description**:What Is K-Nearest Neighbors?
+- **Source**: [zilliz.com](https://zilliz.com/blog/k-nearest-neighbor-algorithm-for-machine-learning)
+- **Date Published**: 2022
+- **Link**: [What Is K-Nearest Neighbors (KNN) Algorithm in Machine Learning? An Essential Guide](https://zilliz.com/blog/k-nearest-neighbor-algorithm-for-machine-learning)
+---
+**Description**:K-Nearest Neighbors
+- **Source**: [javatpoint.com](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
+- **Date Published**: 2024
+- **Link**: [K-Nearest Neighbor(KNN) Algorithm for Machine Learning](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
+---
