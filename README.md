@@ -36,7 +36,7 @@ The Iris data set contains 5 variables:
 - species <br />
 [Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)<br /><br />
 
-Due to it's simplicity, managable size and structure this data set is very popular as a starting point for those learning data analytics.[Source: Daniel Lundy](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
+Due to its simplicity, manageable size and structure this data set is very popular as a starting point for those learning about data analytics.[Source: Daniel Lundy](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
 
 ## How to get started 
 To get started with this repository you can go the following:
@@ -217,4 +217,14 @@ Use Google Colab
 - **Source**: [javatpoint.com](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
 - **Date Published**: 2024
 - **Link**: [K-Nearest Neighbor(KNN) Algorithm for Machine Learning](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
+---
+**Description**:Histogram shapes
+- **Source**: [asq.org](https://asq.org/quality-resources/histogram)
+- **Date Accessed**: 2024
+- **Link**: [WHAT IS A HISTOGRAM?](https://asq.org/quality-resources/histogram)
+---
+**Description**:Box Plots
+- **Source**: [A complete guide to box plots](https://www.atlassian.com/)
+- **Date Accessed**: 2024
+- **Link**: [A complete guide to box plots](https://www.atlassian.com/data/charts/box-plot-complete-guide#:~:text=Box%20plots%20are%20used%20to,skew%2C%20variance%2C%20and%20outliers.)
 ---
