@@ -8,53 +8,62 @@
 
 
 ## Project Description
-This repository contains my analysis of the Fisher's Iris data set.<br />
-The files 'analysis.py' and 'analysisnotebook.ipynb' contain the follwing in relation to the data set:<br />
-- Python code that outputs a summary of each variable to a single text file.
-- Python code that saves a histogram of each variable to png files.
-- Python code that outputs a scatter plot of each pair of variables by Iris species.
-- Python code that outputs a box plot of each numeric variable by species<br />
-- A linear regression model that will predict Iris species based on features<br />
-Please see below for a summary of the data set and all credits and references.
+This repository contains my analysis of the Fisher's Iris dataset.<br/>
+
+Running 'analysis.py' or 'analysisnotebook.ipynb' will perform the following tasks:<br/>
+
+- Output a summary of each variable to a single text file.
+- Generate histograms of each variable and save them as PNG files.
+- Create box plots for each numeric variable by species of Iris.
+- Generate a correlation matrix of all numeric variables.
+- Create a scatter plot of each pair of variables by Iris species as a pairplot.
+- Produce an interactive scatter plot of `petal_length` and `petal_width`.
+- Train and test a linear regression model to predict Iris species.
+- Train and test a k-nearest neighbors model to predict Iris species.
+
+Please see below for a summary of the dataset and all credits and references.<br/>
 
 
-## Summary of the Iris Data Set
-Fisher's Iris data set was famous by Ronald Fisher, a statistician and biologist. <br />
-Fisher used this data set in a paper published in 1936 named 'The use of multiple measurements in taxonomic problems '.<br />
-This data set is also sometimes known as the 'Anderson's Iris data set' as the data itself was collected by an American botanist by the name 'Edgar Anderson'.[Source:wikipedia.org](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)<br />
-The data set contains 150 of iris flowers.  <br />
-These 150 samples are made up of 50 samples from three species of Iris
+
+## Fisher's Iris Dataset
+
+The Fisher's Iris dataset was made famous by Ronald Fisher, a statistician and biologist, who used it in a paper published in 1936 titled 'The Use of Multiple Measurements in Taxonomic Problems'. Sometimes referred to as the 'Anderson's Iris dataset' because the data was collected by an American botanist by the name 'Edgar Anderson'. [Source: Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)<br/>
+
+Comprised 150 iris flowers, the dataset consists of 50 samples from each of three species of Iris:
+
 - Iris Setosa
 - Iris Virginica
-- Iris Versicolor<br /> <br />
+- Iris Versicolor
 
-The Iris data set contains 5 variables:
-- sepal_length
-- sepal_width
-- petal_length
-- petal_width 
-- species <br />
-[Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)<br /><br />
+The Iris dataset is comprised of five variables:
 
-Due to its simplicity, manageable size and structure this data set is very popular as a starting point for those learning about data analytics.[Source: Daniel Lundy](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
+- `sepal_length`
+- `sepal_width`
+- `petal_length`
+- `petal_width`
+- `species`
+<br/>
+[Source: Emine Bozkus](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
 
-## How to get started 
-To get started with this repository you can go the following:
+## How to Get Started
+
+To begin using this repository, follow these steps:<br/>
+
 1. Install Python.
 2. Install Visual Studio Code or another code editor.
-3. Clone this Repository and open it in your code editor. 
-4. Run the Jupyter Notebook. <br /><br />
-or <br /><br />
-Use Google Colab
-<a target="_blank" href="https://colab.research.google.com/github/sarahembarry/pands-project">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+3. Clone this repository and open it in your code editor.
+4. Run the Jupyter Notebook.
+
+Alternatively, you can use Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sarahembarry/pands-project)
 
 
 
 
 
-## Credits and Refrences
+
+## Credits and References
 
 **Description**: Fisher's Iris Data Set
 - **Source**: [Fisher,R. A.. (1988). UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris)
@@ -90,7 +99,7 @@ Use Google Colab
 **Description**: Write pandas dataframe to text file
 - **Source**: [stackoverflow.com](https://stackoverflow.com/)
 - **Date Accessed**: 2024
-- **Link**: [write multiple pandas dataframe to the same txt file](https://stackoverflow.com/questions/57800651/write-multiple-pandas-dataframe-to-the-same-txt-file)
+- **Link**: [Write multiple pandas dataframe to the same txt file](https://stackoverflow.com/questions/57800651/write-multiple-pandas-dataframe-to-the-same-txt-file)
 ---
 **Description**: Save histogram as file
 - **Source**: [stackoverflow.com](https://stackoverflow.com/)
@@ -110,7 +119,7 @@ Use Google Colab
 **Description**: Histograms
 - **Source**: [www150.statcan.gc](https://www150.statcan.gc.ca/)
 - **Date Accessed**: 2024
-- **Link**: [Histogram](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/histo/5214822-eng.htm)
+- **Link**: [Histograms](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/histo/5214822-eng.htm)
 ---
 **Description**: Bar Charts
 - **Source**: [atlassian.com/](https://www.atlassian.com/)
@@ -167,26 +176,7 @@ Use Google Colab
 - **Source**: [Ben Hamner](https://www.kaggle.com/benhamner)
 - **Date Accessed**: 2024
 - **Link**: [Python Data Visualizations](https://www.kaggle.com/code/benhamner/python-data-visualizations)
----
-**Description**: K-Means Clustering of Iris Dataset
-- **Source**: [Siti Khotijah](https://www.kaggle.com/khotijahs1)
-- **Date Accessed**: 2024
-- **Link**: [K-Means Clustering of Iris Dataset](https://www.kaggle.com/code/khotijahs1/k-means-clustering-of-iris-dataset)
----
-**Description**: Analyzing Decision Tree and K-means Clustering using Iris dataset
-- **Source**: [geeksforgeeks.org/](https://www.geeksforgeeks.org/)
-- **Date Published**: 2022
-- **Link**: [Analyzing Decision Tree and K-means Clustering using Iris dataset](https://www.geeksforgeeks.org/analyzing-decision-tree-and-k-means-clustering-using-iris-dataset/)
----
-**Description**: K-Means Clustering in Python: A Practical Guide
-- **Source**: [realpython.com](https://realpython.com/k-means-clustering-python/)
-- **Date Published**: 2020
-- **Link**: [K-Means Clustering in Python: A Practical Guide](https://realpython.com/k-means-clustering-python/)
----
-**Description**: K-means clustering and Iris dataset
-- **Source**: [Dhiraj Km](https://dhirajkumarblog.medium.com/)
-- **Date Published**: 2019
-- **Link**: [K-means clustering using sklearn and Python](https://heartbeat.comet.ml/k-means-clustering-using-sklearn-and-python-4a054d67b187)
+
 ---
 **Description**: Scatter plot using Plotly
 - **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
@@ -227,4 +217,19 @@ Use Google Colab
 - **Source**: [A complete guide to box plots](https://www.atlassian.com/)
 - **Date Accessed**: 2024
 - **Link**: [A complete guide to box plots](https://www.atlassian.com/data/charts/box-plot-complete-guide#:~:text=Box%20plots%20are%20used%20to,skew%2C%20variance%2C%20and%20outliers.)
+---
+**Description**:Filterning python warnings by message
+- **Source**: [python-forum](https://python-forum.io/)
+- **Date Accessed**: 2024
+- **Link**: [Filtering warnings by message](https://python-forum.io/thread-35299.html)
+---
+**Description**:Scatter plots
+- **Source**: [patlassian.com](https://www.atlassian.com/)
+- **Date Accessed**: 2024
+- **Link**: [A complete guide to scatter plots](https://www.atlassian.com/data/charts/what-is-a-scatter-plot#:~:text=Scatter%20plots'%20primary%20uses%20are,are%20common%20with%20scatter%20plots)
+---
+**Description**:Supervised ML
+- **Source**: [ibm.com](https://www.ibm.com/)
+- **Date Accessed**: 2024
+- **Link**: [What is supervised learning?](https://www.ibm.com/topics/supervised-learning)
 ---
