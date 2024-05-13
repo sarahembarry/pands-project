@@ -14,6 +14,7 @@ Running 'analysis.py' or 'analysisnotebook.ipynb' will perform the following tas
 
 - Output a summary of each variable to a single text file.
 - Generate histograms of each variable and save them as PNG files.
+- Generate a bar chart of the `species` variable.
 - Create box plots for each numeric variable by species of Iris.
 - Generate a correlation matrix of all numeric variables.
 - Create a scatter plot of each pair of variables by Iris species as a pairplot.
@@ -232,4 +233,9 @@ Alternatively, you can use Google Colab:
 - **Source**: [ibm.com](https://www.ibm.com/)
 - **Date Accessed**: 2024
 - **Link**: [What is supervised learning?](https://www.ibm.com/topics/supervised-learning)
+---
+**Description**:Overfitting in ML
+- **Source**: [AWS](https://aws.amazon.com/)
+- **Date Accessed**: 2024
+- **Link**: [What is Overfitting?](https://aws.amazon.com/what-is/overfitting/#:~:text=Overfitting%20occurs%20when%20the%20model,all%20possible%20input%20data%20values.)
 ---
