@@ -86,6 +86,11 @@ Alternatively, you can use Google Colab:
 - **Date Published**: 2023
 - **Link**: [Mastering Machine Learning: Exploring the IRIS Dataset for Predictive Analysis](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
 ---
+**Description**: Exceptions in Python 
+- **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
+- **Date Published**: 2023 hand
+- **Link**: [Python Try Except](https://www.geeksforgeeks.org/python-try-except/)
+---
 **Description**: Pandas DataFrame describe() Method
 - **Source**: [www.w3schools.com/](https://www.w3schools.com/)
 - **Date Accessed**: 2024
