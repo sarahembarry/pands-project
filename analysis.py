@@ -1,3 +1,5 @@
+# Please see juptyer notebook for the full analysis and code comments. 
+
 # Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -19,27 +21,28 @@ warnings.filterwarnings("ignore", message="When grouping with a length-1 list-li
 # Import and summerise the dataset
 try:
     df = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
+    print("The Iris dataset has been imported.\n")
 except:
-    print("An error occurred while loading the dataset.")
+    print("An error occurred while loading the dataset")
 
 summary= df.describe(include='all')
 print("Here is a summary of the Iris dataset:")
 print(summary)
 
 
-#Check data quality
+# Check data quality
 missing_values = df.isna().sum()
-print("\nThe Dataset has been checked for missing values. There are no missing values.")
+print("\nThe dataset has been checked for missing values. There are no missing values:")
 print(missing_values)
 
 
-#Summary of variables to text file
+# Summary of variables to text file
 with open("summaryofvariables.txt", "w") as f:
    f.write(summary.to_string())
 print("\nA text file with the summary of all variables in the dataset has been generated and saved.\n")
 
 
-#Histograms of numeric variables
+# Histograms of numeric variables
 def plot_histogram(column,column_name, title, filename):
     plt.hist(column, color='blue', bins=30)
     plt.title(title, fontsize=16)
@@ -48,25 +51,25 @@ def plot_histogram(column,column_name, title, filename):
     plt.grid(True)
     plt.savefig(filename)
    
-print("A histogram of 'sepal_length' has been generated and saved as a .png file.\n")
+print("A histogram of 'sepal_length' has been generated and saved as sepal_length_histogram.png.\n")
 plot_histogram(df['sepal_length'],'sepal_length(cm)', 'Distribution of Sepal Length', 'sepal_length_histogram.png')
 plt.show()
 
-print("A histogram of 'sepal_width' has been generated and saved as a .png file.\n")
+print("A histogram of 'sepal_width' has been generated and saved as sepal_width_histogram.png.\n")
 plot_histogram(df['sepal_width'], 'sepal_width(cm)','Distribution of Sepal Width', 'sepal_width_histogram.png')
 plt.show()
 
-print("A histogram of 'petal_length' has been generated and saved as a .png file.\n")
+print("A histogram of 'petal_length' has been generated and saved as petal_length_histogram.png.\n")
 plot_histogram(df['petal_length'],'petal_length(cm)', 'Distribution of Petal Length', 'petal_length_histogram.png')
 plt.show()
 
-print("A histogram of 'petal_width' has been generated and saved as a .png file.\n")
+print("A histogram of 'petal_width' has been generated and saved as petal_width_histogram.png.\n")
 plot_histogram(df['petal_width'], 'petal_width(cm)','Distribution of Petal Width', 'petal_width_histogram.png')
 plt.show()
 
 
-#Bar chart of species
-print("A barchart of 'species' has been generated and saved as a .png file.\n")
+# Bar chart of species
+print("A bar chart of 'species' has been generated and saved as species_barchart.png.\n")
 species_counts = df['species'].value_counts()
 plt.bar(species_counts.index,species_counts.values, color='blue')
 plt.title('Number of Iris Flowers by Species')
@@ -76,7 +79,7 @@ plt.savefig('species_barchart.png')
 plt.show()
 
 
-#Boxplots of numeric variables by species
+# Boxplots of numeric variables by species
 print("Boxplots for each numeric variable by species have been generated.\n")
 plt.figure(figsize=(9, 6))
 
@@ -100,20 +103,20 @@ plt.tight_layout()
 plt.show()
 
 
-#Correlation matrix
+# Correlation matrix
 numeric_df = df.select_dtypes(include='number')
 correlation_matrix = numeric_df.corr()
 print("A matrix of the correlation between the numeric variables in the dataset has been generated:\n")
 print(correlation_matrix)
 
 
-#Pairplot scatterplots of numeric variables by species 
+# Pairplot scatterplots of numeric variables by species 
 print("\nScatter plots visualizing the correlation between each pair of numeric variables by species have been generated.\n")
 sns.pairplot(df, hue='species')
 plt.show()
 
 
-#Interactive scatterplot of petal length and petal width
+# Interactive scatterplot of petal length and petal width
 print("An interactive scatterplot of 'petal length' and 'petal width' has been generated:\n")
 fig = px.scatter(df, x="petal_length", y="petal_width",
                  color="species",
@@ -122,7 +125,7 @@ fig = px.scatter(df, x="petal_length", y="petal_width",
 fig.show()
 
 
-#Machine learning set up
+# Machine learning set up
 x = df[['sepal_length', 'sepal_width' ,'petal_length','petal_width']]
 y = df['species']
 x_train, x_test, y_train,y_test = train_test_split(x, y, test_size=0.2, random_state=42)
@@ -137,11 +140,11 @@ def evaluate_report(model, x_test, y_test):
     print(classification_report(y_test, predictions))
 
 
-#Logistic regression model
+# Logistic regression model
 log_reg_model= LogisticRegression()
 trained_log_reg_model = train_model(log_reg_model, x_train, y_train)
 
-print("n\A logistic regression model has been trained to predict Iris species based on features using the dataset. Here are the results:\n")
+print("\nA logistic regression model has been trained to predict Iris species based on its features using the dataset.\n")
 evaluate_report(trained_log_reg_model, x_test, y_test)
 
 print("A Setosa entry was selected, and its features were input into the logistic regression model. Here is the Iris species predicted by the model:")
@@ -154,14 +157,14 @@ log_reg_test_plant = {
 }
 log_reg_plant_df = pd.DataFrame([log_reg_test_plant])
 print(log_reg_model.predict(log_reg_plant_df))
-print("\nThe K-nearest neighbor model has predicted correctly.\n")
+print("\nThe logistic regression model has predicted correctly.\n")
 
 
-#K-nearest neighbour model
-knn_model= LogisticRegression()
+# K-nearest neighbour model
+knn_model= KNeighborsClassifier()
 trained_knn_model = train_model(knn_model, x_train, y_train)
 
-print("A K-nearest neighbor model has been trained to predict Iris species based on features using the dataset. Here are the results:\n")
+print("A K-nearest neighbor model has been trained to predict Iris species based on its features using the dataset.\n")
 evaluate_report(trained_knn_model, x_test, y_test)
 
 print("\nA Virginica entry was selected, and its features were input into the K-nearest neighbor model. Here is the Iris species predicted by the model:")
@@ -174,4 +177,4 @@ knn_plant = {
 }
 knn_df = pd.DataFrame([knn_plant])
 print(knn_model.predict(knn_df))
-print("\nThe k-nearest neighbor model has predicted correctly.\n")
+print("\nThe K-nearest neighbor model has predicted correctly.\n")
