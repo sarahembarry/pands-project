@@ -2,7 +2,7 @@
 
 ## Table of Contents:
 1. [Project Description](#project-description)
-2. [Summary of the Iris Data Set](#Summary-of-the-Iris-Data-Set)
+2. [Summary of the Iris Dataset](#Summary-of-the-Iris-Data-Set)
 3. [How to get started](#how-to-get-started)
 4. [Credits and References](#credits-and-references)
 
@@ -28,7 +28,7 @@ Please see below for a summary of the dataset and all credits and references.<br
 
 The Fisher's Iris dataset was made famous by Ronald Fisher, a statistician and biologist, who used it in a paper published in 1936 titled 'The Use of Multiple Measurements in Taxonomic Problems'. Sometimes referred to as the 'Anderson's Iris dataset' because the data was collected by an American botanist by the name 'Edgar Anderson'. [Source: Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)<br/>
 
-Comprised 150 iris flowers, the dataset consists of 50 samples from each of three species of Iris:
+Comprised of 150 Iris flowers, the dataset consists of 50 samples from each of three species of Iris:
 
 - Iris Setosa
 - Iris Virginica
@@ -59,22 +59,22 @@ Alternatively, you can use Google Colab:
 
 ## Credits and References
 
-**Description**: Fisher's Iris Data Set
+**Description**: Fisher's Iris Dataset
 - **Source**: [Fisher,R. A.. (1988). UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris)
 - **Date Accessed**: 2024
-- **Link**: [Fisher's Iris Data Set](https://archive.ics.uci.edu/dataset/690/palmer+penguins-3)
+- **Link**: [Fisher's Iris DataSet](https://archive.ics.uci.edu/dataset/690/palmer+penguins-3)
 ---
-**Description**: Iris Data Set Information
+**Description**: Iris Dataset Information
 - **Source**: [en.wikipedia.org](https://en.wikipedia.org/)
 - **Date Accessed**: 2024
-- **Link**: [Fisher's Iris Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)
+- **Link**: [Fisher's Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)
 ---
-**Description**: Iris Data Set Analysis
+**Description**: Iris Dataset Analysis
 - **Source**: [Emine Bozkus](https://eminebozkus.medium.com/)
 - **Date Published**: 2022
 - **Link**: [Exploring the Iris flower dataset](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
 ---
-**Description**: Iris Data Set Analysis
+**Description**: Iris Dataset Analysis
 - **Source**: [Daniel Lundy](https://medium.com/@daniel.lundy.analyst)
 - **Date Published**: 2023
 - **Link**: [Mastering Machine Learning: Exploring the IRIS Dataset for Predictive Analysis](https://medium.com/@daniel.lundy.analyst/mastering-machine-learning-exploring-the-iris-dataset-for-predictive-analysis-f52a76bd7075#:~:text=The%20iris%20dataset%20is%20popular,and%20evaluating%20machine%20learning%20algorithms.)
@@ -94,15 +94,15 @@ Alternatively, you can use Google Colab:
 - **Date Accessed**: 2024
 - **Link**: [Pandas DataFrame: describe() function](https://www.w3resource.com/pandas/dataframe/dataframe-describe.php)
 ---
-**Description**: Find missing columns in df in with Pandas
+**Description**: Find missing columns in df with Pandas
 - **Source**: [cmdlinetips.com](https://cmdlinetips.com/)
 - **Date Published**: 2020
 - **Link**: [How To Get Number of Missing Values in Each Column in Pandas](https://cmdlinetips.com/2020/11/how-to-get-number-of-missing-values-in-each-column-in-pandas/)
 ---
-**Description**: Write pandas dataframe to text file
+**Description**: Write Pandas Dataframe to text file
 - **Source**: [stackoverflow.com](https://stackoverflow.com/)
 - **Date Accessed**: 2024
-- **Link**: [Write multiple pandas dataframe to the same txt file](https://stackoverflow.com/questions/57800651/write-multiple-pandas-dataframe-to-the-same-txt-file)
+- **Link**: [Write multiple Pandas Dataframe to the same txt file](https://stackoverflow.com/questions/57800651/write-multiple-pandas-dataframe-to-the-same-txt-file)
 ---
 **Description**: Save histogram as file
 - **Source**: [stackoverflow.com](https://stackoverflow.com/)
@@ -139,17 +139,17 @@ Alternatively, you can use Google Colab:
 - **Date Accessed**: 2024
 - **Link**: [A complete guide to bar charts](https://www.atlassian.com/data/charts/bar-chart-complete-guide#:~:text=A%20bar%20chart%20is%20used,groups%20compare%20against%20the%20others.)
 ---
-**Description**: Boxplots by species
+**Description**: Box plots by species
 - **Source**: [Hfahmida Data Science and Business Analytics:TRIDS](https://medium.com/@hfahmida)
 - **Date Published**: 2023
-- **Link**: [EDA for Iris dataset with Boxplots Violin Plots Heatmap & Pairwise Plots](https://medium.com/@hfahmida/eda-for-iris-dataset-with-boxplots-violin-plots-heatmap-pairwise-plots-535275b4c2a0)
+- **Link**: [EDA for Iris dataset with Box plots Violin Plots Heatmap & Pairwise Plots](https://medium.com/@hfahmida/eda-for-iris-dataset-with-boxplots-violin-plots-heatmap-pairwise-plots-535275b4c2a0)
 ---
-**Description**: Boxplots by species
+**Description**: Box plots by species
 - **Source**: [Ben Hamner](https://www.kaggle.com/benhamner)
 - **Date Accessed**: 2024
 - **Link**: [Python Data Visualizations](https://www.kaggle.com/code/benhamner/python-data-visualizations)
 —--
-**Description**:Box Plots
+**Description**:Box plots
 - **Source**: [A complete guide to box plots](https://www.atlassian.com/)
 - **Date Accessed**: 2024
 - **Link**: [A complete guide to box plots](https://www.atlassian.com/data/charts/box-plot-complete-guide#:~:text=Box%20plots%20are%20used%20to,skew%2C%20variance%2C%20and%20outliers.)
@@ -159,12 +159,12 @@ Alternatively, you can use Google Colab:
 - **Date Published**: 2021
 - **Link**: [How to create a correlation matrix using Pandas](https://www.geeksforgeeks.org/how-to-create-a-correlation-matrix-using-pandas/)
 ---
-**Description**:Select columns by dtype in dataframe
+**Description**:Select columns by dtype in Dataframe
 - **Source**: [note.nkmk.me](https://note.nkmk.me/en)
 - **Date Published**: 2024
-- **Link**: [pandas: Select columns by dtype with select_dtypes()](https://note.nkmk.me/en/python-pandas-select-dtypes/)
+- **Link**: [Pandas: Select columns by dtype with select_dtypes()](https://note.nkmk.me/en/python-pandas-select-dtypes/)
 ---
-**Description**:Filterning python warnings by message
+**Description**:Filtering python warnings by message
 - **Source**: [python-forum](https://python-forum.io/)
 - **Date Accessed**: 2024
 - **Link**: [Filtering warnings by message](https://python-forum.io/thread-35299.html)
@@ -180,7 +180,7 @@ Alternatively, you can use Google Colab:
 - **Link**: [Python – seaborn.pairplot() method](https://www.geeksforgeeks.org/python-seaborn-pairplot-method/)
 —--
 **Description**:Scatter plots
-- **Source**: [patlassian.com](https://www.atlassian.com/)
+- **Source**: [atlassian.com](https://www.atlassian.com/)
 - **Date Accessed**: 2024
 - **Link**: [A complete guide to scatter plots](https://www.atlassian.com/data/charts/what-is-a-scatter-plot#:~:text=Scatter%20plots'%20primary%20uses%20are,are%20common%20with%20scatter%20plots)
 ---
@@ -189,12 +189,12 @@ Alternatively, you can use Google Colab:
 - **Date Published**: 2024
 - **Link**: [Scatter plot using Plotly in Python](https://www.geeksforgeeks.org/scatter-plot-using-plotly-in-python/)
 ---
-**Description**:Supervised ML
+**Description**: Supervised ML
 - **Source**: [ibm.com](https://www.ibm.com/)
 - **Date Accessed**: 2024
 - **Link**: [What is supervised learning?](https://www.ibm.com/topics/supervised-learning)
 ---
-**Description**:Overfitting in ML
+**Description**: Overfitting in ML
 - **Source**: [AWS](https://aws.amazon.com/)
 - **Date Accessed**: 2024
 - **Link**: [What is Overfitting?](https://aws.amazon.com/what-is/overfitting/#:~:text=Overfitting%20occurs%20when%20the%20model,all%20possible%20input%20data%20values.)
@@ -214,27 +214,27 @@ Alternatively, you can use Google Colab:
 - **Date Published**: 2019
 - **Link**: [Understanding Logistic Regression in Python Tutorial](https://www.datacamp.com/tutorial/understanding-logistic-regression-python)
 ---
-**Description**:Logistic Regression in Machine Learning
+**Description**: Logistic Regression in Machine Learning
 - **Source**: [geeksforgeeks.org](https://www.geeksforgeeks.org/understanding-logistic-regression/)
 - **Date Published**: 2024
 - **Link**: [Logistic Regression in Machine Learning](https://www.geeksforgeeks.org/understanding-logistic-regression/)
 ---
-**Description**:K-nearest neighbors on Iris data set
+**Description**: K-nearest neighbors on Iris dataset
 - **Source**: [AI with AI](https://www.youtube.com/@AsifImmanad)
 - **Date Accessed**: 2024
 - **Link**: [Example of ML Classification Technique on iris Dataset using KNN Algorithm | AI with AI](https://www.youtube.com/watch?v=KvYGJt3cTj4)
 ---
-**Description**:K-nearest neighbors on Iris data set
+**Description**: K-nearest neighbors on Iris dataset
 - **Source**: [S.Sreenivasulu](https://www.kaggle.com/susree64)
 - **Date Accessed**: 2024
-- **Link**: [K-Nearest Neighbor with Iris Data set](https://www.kaggle.com/code/susree64/k-nearest-neighbor-with-iris-data-set)
+- **Link**: [K-Nearest Neighbor with Iris Dataset](https://www.kaggle.com/code/susree64/k-nearest-neighbor-with-iris-data-set)
 ---
-**Description**:What Is K-Nearest Neighbors?
+**Description**: What Is K-Nearest Neighbors?
 - **Source**: [zilliz.com](https://zilliz.com/blog/k-nearest-neighbor-algorithm-for-machine-learning)
 - **Date Published**: 2022
-- **Link**: [What Is K-Nearest Neighbors (KNN) Algorithm in Machine Learning? An Essential Guide](https://zilliz.com/blog/k-nearest-neighbor-algorithm-for-machine-learning)
+- **Link**: [What is K-Nearest Neighbors (KNN) Algorithm in Machine Learning? An Essential Guide](https://zilliz.com/blog/k-nearest-neighbor-algorithm-for-machine-learning)
 ---
-**Description**:K-Nearest Neighbors
+**Description**: K-Nearest Neighbors
 - **Source**: [javatpoint.com](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
 - **Date Published**: 2024
 - **Link**: [K-Nearest Neighbor(KNN) Algorithm for Machine Learning](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)

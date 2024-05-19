@@ -79,8 +79,8 @@ plt.savefig('species_barchart.png')
 plt.show()
 
 
-# Boxplots of numeric variables by species
-print("Boxplots for each numeric variable by species have been generated.\n")
+# Box plots of numeric variables by species
+print("Box plots for each numeric variable by species have been generated.\n")
 plt.figure(figsize=(9, 6))
 
 plt.subplot(2, 2, 1)
@@ -110,14 +110,14 @@ print("A matrix of the correlation between the numeric variables in the dataset 
 print(correlation_matrix)
 
 
-# Pairplot scatterplots of numeric variables by species 
-print("\nScatter plots visualizing the correlation between each pair of numeric variables by species have been generated.\n")
+# Pair plot scatter plots of numeric variables by species 
+print("\nScatter plots visualising the correlation between each pair of numeric variables by species have been generated.\n")
 sns.pairplot(df, hue='species')
 plt.show()
 
 
-# Interactive scatterplot of petal length and petal width
-print("An interactive scatterplot of 'petal length' and 'petal width' has been generated:\n")
+# Interactive scatter plot of petal length and petal width
+print("An interactive scatter plot of 'petal length' and 'petal width' has been generated:\n")
 fig = px.scatter(df, x="petal_length", y="petal_width",
                  color="species",
                  symbol="species",  
@@ -160,7 +160,7 @@ print(log_reg_model.predict(log_reg_plant_df))
 print("\nThe logistic regression model has predicted correctly.\n")
 
 
-# K-nearest neighbour model
+# K-nearest neighbor model
 knn_model= KNeighborsClassifier()
 trained_knn_model = train_model(knn_model, x_train, y_train)
 
